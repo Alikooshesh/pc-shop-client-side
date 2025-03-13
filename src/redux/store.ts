@@ -11,7 +11,7 @@ const combinedReducers = combineReducers({
 const persistedReducers = persistReducer({
     key : "pc-shop",
     storage,
-    whitelist : []
+    whitelist : ["cart"]
 } , combinedReducers)
 
 const store = configureStore({
