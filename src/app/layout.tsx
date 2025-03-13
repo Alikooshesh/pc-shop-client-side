@@ -24,6 +24,9 @@ export default function RootLayout({
         className={`${vazir.variable}`}
       >
         <ReduxProvider>
+          <header className="p-2 border-b border-black">
+            <h2 className="text-indigo-600">PC Shop</h2>
+          </header>
           {children}
         </ReduxProvider>
       </body>
