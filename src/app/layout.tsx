@@ -23,12 +23,12 @@ export default function RootLayout({
       <body
         className={`${vazir.variable}`}
       >
-        {/* <ReduxProvider> */}
+        <ReduxProvider>
           <header className="p-2 border-b border-black">
             <h2 className="text-indigo-600">PC Shop</h2>
           </header>
           {children}
-        {/* </ReduxProvider> */}
+        </ReduxProvider>
       </body>
     </html>
   );
